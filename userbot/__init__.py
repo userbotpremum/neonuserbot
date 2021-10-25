@@ -226,7 +226,7 @@ AVTO_QATILMA = sb(os.environ.get("AVTO_QATILMA", "True"))
 
 # Patternler
 PATTERNS = os.environ.get("PATTERNS", ".;!,")
-WHITELIST = get('https://raw.githubusercontent.com/TheOksigen/neon_userbot/main/whitelist.json').json()
+WHITELIST = get('https://raw.githubusercontent.com/TheOksigen/neonuserbot/main/whitelist.json').json()
 
 # CloudMail.ru ve MEGA.nz 
 if not os.path.exists('bin'):
