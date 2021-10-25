@@ -10,7 +10,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/TheOksigen/neonuserbot",
+  "repository": "https://github.com/nusrte/neonuserbot",
   "website":   "",
   "success_url": "https://t.me/neonuserbot",
   "stack": "container",
@@ -54,7 +54,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Toxunmayın!.",
-      "value": "https://github.com/TheOksigen/neonuserbot",
+      "value": "https://github.com/nusrte/neonuserbot",
       "required": true
     },
     "COUNTRY": {
