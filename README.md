@@ -17,12 +17,7 @@
 <h3 align = 'center'>Here you will be informed about NeonUserBot.
 You can contact us with all the buttons for questions you do not understand or have in mind.</h3>
 
-</div>
-<div align="center">
-        <h2>Deploy Methods.</h2>
-</div>
-
-
+## Deploy Methods.
   
 ### _Easy Method._
 **For Android:** Open the [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US) and paste this code:
