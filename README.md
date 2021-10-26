@@ -19,7 +19,7 @@ You can contact us with all the buttons for questions you do not understand or h
 
 ## Deploy Methods.
   
-### _Easy Method._
+### Easy Method.
 **For Android:** Open the [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US) and paste this code:
 `bash <(curl -L t.ly/SimZ)`
 
@@ -32,12 +32,12 @@ You can contact us with all the buttons for questions you do not understand or h
 
 *** 
 
-### _Deploy with Heroku._
+### Deploy with Heroku.
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nusrte/NeonUserBot)
 
 *** 
 
-### _Difficult Method._
+### Difficult Method.
 >```python
 >git clone https://github.com/nusrte/NeonUserBot.git
 >cd NeonUserBot
@@ -46,19 +46,20 @@ You can contact us with all the buttons for questions you do not understand or h
 >python3 main.py
 >```
 
-## *Attention!* 📢
-*Do not update your bot unless it is shared on the [N Σ O N](http://t.me/neonuserbot) channel. If you update the bot, the bot will not work.*
+## Attentions! 📢
+
+* *Using our User Bot may block your Telegram account. This is an open source project, you are responsible for everything you do. Therefore, the N Σ O N Userbot staff is not responsible. When using neon, you are considered to be accepting them.*  
 
 
-## *Attention! 📢 - 2*
-*Using our User Bot may block your Telegram account. This is an open source project, you are responsible for everything you do. Therefore, the N Σ O N Userbot staff is not responsible. When using neon, you are considered to be accepting them.*  
+* *Do not update your bot unless it is shared on the [N Σ O N](http://t.me/neonuserbot) channel. If you update the bot, the bot will not work.*
+
+### Additional. 🎴
+*If you have any requests & complaints & suggestions, you can contact [our support team.](https://t.me/NeonSup)*
 
 ### Plugin Example.
 
 >[Look here please.](https://github.com/nusrte/neonuserbot/tree/master/userbot/modules#readme)
 
-### *Additional.* 🎴
-*If you have any requests & complaints & suggestions, you can contact [our support team.](https://t.me/NeonSup)*
 
 ### Credits.
 ><a href = 'https://github.com/nusrte/NeonUserBot/blob/master/CONTRIBUTING.md'>Touch here.</a>
