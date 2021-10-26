@@ -1,126 +1,65 @@
 
-
-<div align="center">
-  <img src="https://i.ibb.co/H4zk5Qn/ec8fe152dbe87791e3258.jpg" alt="ec8fe152dbe87791e3258" border=0 " width="300" height="300">
-  <h1>N Σ O N</h1>
-</div>
+<h1 align="center">N Σ O N</h1>
 <p align="center">
-    <b> N Σ O N Userbot'u Telegram hesabınızı daha asan və əyləncəli şəkildə istifadə etmək üçün sizlər üçün hazırlayıb təhvil vermişik. Siz bu botla istədiyiniz bir çox şeyləri daha asan yerinə yetirə biləcəksiniz. </b>
-    <br>
-        <b><a href="https://t.me/NeonUserBot">Güncəlləmələr</a> |
-        <a href="https://t.me/NeonSUP">Kömək Qrupu</a></b>
-    <br>
+    <b>N Σ O N Userbot is created for you to use Telegram in an easier and more entertaining way.
+      You can easily do many things you want with this bot.</b>
 </p>
+<!--------
+[![Chat on Telegram](https://img.shields.io/badge/Official%20Channel-Telegram-silver.svg?style=flat&logo=Telegram)](http://t.me/neonuserbot) [![Chat on Telegram](https://img.shields.io/badge/Official%20Support-Telegram-red.svg?style=flat&logo=Telegram)](http://t.me/neonsup) [![Chat on Telegram](https://img.shields.io/badge/Plugins-Telegram-gold.svg?style=flat&logo=Telegram)](http://t.me/neonplugin) [![Chat on Telegram](https://img.shields.io/badge/Neon%20Devs-Telegram-succes.svg?style=flat&logo=Telegram)](http://t.me/neondevs) [![GitHub language count](https://img.shields.io/github/languages/count/nusrte/NeonUserBot?color=red)](https://github.com/nusrte/NeonUserBot) [![DeepSource](https://deepsource.io/gh/nusrte/NeonUserBot.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/nusrte/NeonUserBot/?ref=repository-badge) [![CodeFactor](https://www.codefactor.io/repository/github/nusrte/neonuserbot/badge)](https://www.codefactor.io/repository/github/nusrte/neonuserbot) ![Repo's Size](https://img.shields.io/github/repo-size/nusrte/neonuserbot?color=blue) ![](https://img.shields.io/github/forks/nusrte/neonuserbot?color=silver&logo=neon) ![Repo's Stars.](https://img.shields.io/github/stars/nusrte/neonuserbot?color=red)
+------->
 
-***
-</div>
 <div align="center">
-        <h1><b>Qurulum</b></h1>
+  <img src="https://github.com/nusrte/NeonUserBot-Old/blob/master/photo/neonub.jpg" width="600" height="600">
 </div>
-<div align="left">
+
 
 *** 
+<h3>Here you will be informed about NeonUserBot.
+You can contact us with all the buttons for questions you do not understand or have in mind.</h3>
+
+</div>
+<div align="center">
+        <h2>Deploy Methods.</h2>
+</div>
+
+
   
-## _Asan Üsul_
-                 
-### Android: 
-[Termux'u](https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US) yükləyin və ya açın və bu kodu yazın: 
+### _Easy Method._
+**For Android:** Open the [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US) and paste this code:
 `bash <(curl -L t.ly/SimZ)`
 
-***Alternativ kod:***
+**Alternative code:**
 `bash <(curl -L t.ly/YASn)`
   
-### iOS: 
-[ISH](https://apps.apple.com/us/app/ish-shell/id1436902243) və ya [TestFlight'ı](https://apps.apple.com/ru/app/testflight/id899247664) açın və bu kodu yapışdırın: `apk update && apk add bash && apk add curl && curl -L -o neon_installer.sh https://t.ly/satc && chmod +x neon_installer.sh && bash neon_installer.sh`
+**For iOS:** Open [ISH](https://apps.apple.com/us/app/ish-shell/id1436902243) or [TestFlight](https://apps.apple.com/ru/app/testflight/id899247664) and paste this code: ```apk update && apk add bash && apk add curl && curl -L -o neon_installer.sh https://t.ly/yPtl && chmod +x neon_installer.sh && bash neon_installer.sh```
 
-### Kompüter
-Əgər kompüteriniz Windows 10-dursa, PowerShell kompüterinizdə olmalıdır. 
-Lakin, Windows 10-dan aşağı versiyadırsa, PowerShell'i yükləməyinizə ehtiyac var.
-Bunlardan əlavə olaraq kompüterdə Python 3.8 versiyası olmalıdır.
-Bunların hamısı hazır olduqdan sonra, PowerShell auto kodunu yazın.
-
-**PowerShell Auto Kodu:** ```Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://t.ly/lYOT')```
-
-
->**Python v3.8 :** <code>http://www.microsoft.com/en-us/p/python-38/9mssztt1n39l#activetab=pivot:overviewtab</code>
-
->**PowerShell Yükləmə linki:** <code>https://au2mator.com/freedownload/</code>
-*** 
-
-### _Heroku ilə deploy_
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheOksigen/neon_userbot)
+**Alternative code:** ```apk update && apk add bash && apk add curl && curl -L -o neon_installer.sh https://t.ly/RFEj && chmod +x neon_installer.sh && bash neon_installer.sh```
 
 *** 
 
-### _Çətin Üsul_
+### _Deploy with Heroku._
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nusrte/NeonUserBot)
+
+*** 
+
+### _Difficult Method._
 >```python
->git clone https://github.com/TheOksigen/neon_userbot
->cd neon_userbot
+>git clone https://github.com/nusrte/NeonUserBot.git
+>cd NeonUserBot
 >pip install -r requirements.txt
-># Config.env yaradıb düzənləyin. #
+># Create and edit Config.env. #
 >python3 main.py
 >```
 
-## Plugin Örnəkləri
-### Örnək - 1
+## *Attention!* 📢
+*Do not update your bot unless it is shared on the [N Σ O N](http://t.me/neonuserbot) channel. If you update the bot, the bot will not work.*
 
->```python
->from userbot.events import register
->from userbot.cmdhelp import CmdHelp # <-- Bunu Əlavə edin.
->
->@register(outgoing=True, pattern="^.test") #Siz burda komandanın adını qeyd edirsiniz (.test)
->async def neonuserbot(event):
->    await event.edit('Neon Userbot istifadə et, xeyir tapacaqsan, can ciyer.') 
->
->Help = CmdHelp('test') # Modul adı.
->Help.add_command('test', # Əmr
->    None, # Əmr parametrləri varsa, yazın. Yoxdursa, None yazın.
->    'NeonUserbot haqqında animasiya.', # Əmr açıqlaması
->    '.test' # Örnək istifadə 
->    )
->Help.add_info('@esebj tarafından yapılmıştır.') # Məlumat yaza bilərsiniz
-># və ya xəbərdarlıq --> Help.add_warning('Təhlükəlidir!')
->Help.add() # bunu mütləq yazın.
->```
 
-### Örnək - 2
->```python
->from userbot.events import register
->from userbot.cmdhelp import CmdHelp
->from userbot import NEON_VERSION, bot
->from time import sleep as t
->from telethon import events
->
->@register(outgoing=True, pattern="^.test(?: |$)(.*)")  #Siz burda komandanın adını qeyd edirsiniz (.test)
->async def test(event):
->    await event.client.send_message(event.chat_id, "**Salam.**")
->    t(1)
->    await event.client.send_message(event.chat_id, "**Sən də N Σ O N işlət..** 🧘🏻")
->    t(1)
->    await event.delete() # <- bu yazılan bütün mesajları silər.
->    await event.client.send_message(event.chat_id, "**AuYeS N Σ O N 🤟🏻**") # və sonda tək bu mesajı göndərər
->    t(1)
->
->Help = CmdHelp('test').add_command(
->  'test',None,'N Σ O N haqqında animasiya' # modulun ne işə yaradığını deyin
->).add_info(
->  '**@esebj tərəfindən @NeonUserBot üçün hazırlanmışdır.**' # məlumat əlavə edin
->).add() # bu mütləqdir.
->```
-## İnformasiya
+## *Attention! 📢 - 2*
+*Using our User Bot may block your Telegram account. This is an open source project, you are responsible for everything you do. Therefore, the N Σ O N Userbot staff is not responsible. When using neon, you are considered to be accepting them.*  
 
-* ***Hər hansısa bir istək & şikayət & önəriləriniz olarsa, [dəstək qrupumuza](https://t.me/NeonSup) müraciət edə bilərsiniz.***
+## *Additional.* 🎴
+*If you have any requests & complaints & suggestions, you can contact [our support team.](https://t.me/NeonSup)*
 
->**Diqqət: [N Σ O N](t.me/neonuserbot) kanalında paylaşılmadığı halda botunuzu yeniləməyin. 
-Əgər botu yeniləsəniz, bot işləməyəcək.
->UserBotumuzu işlətməniz Telegram hesabınızı banlada bilər..
->Bu, açıq mənbəli bir layihədir, etdiyiniz hər şey üçün cavabdehsiniz.
->Buna görə N Σ O N Userbot heyyəti məsuliyyət daşımır
->N Σ O N quraraq bunları qəbul etdiyiniz hesab olunur.**
-
-# Credits
-> **Thanks [AsenaUserBot](https://github.com/yusufusta/AsenaUserBot)**
-  
-## Creator / Qurucu
-* **[Oksigen](https://t.me/theoksigen)**
-* **[Whisper](https://T.me/Esebj)**
+## *Credits.* 
+><a href = 'https://github.com/nusrte/NeonUserBot/blob/master/CONTRIBUTING.md'>Touch here.</a>
