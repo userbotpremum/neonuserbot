@@ -1,10 +1,20 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
+# Copyright (C) 2021  Nusrte & TheOksigen.
 #
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
-# you may not use this file except in compliance with the License
-#N Σ O N userbot #esebj - TheOksigen
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/> 
+# and <https://github.com/nusrte/NeonUserBot/blob/master/LICENSE/>
 
-# Neon User Bot #
+        
 """ UserBot hazırlanışı """
 from telethon.tl.functions.phone import GetGroupCallRequest as getvc
 from telethon.tl.functions.channels import GetFullChannelRequest as getchat
@@ -69,7 +79,7 @@ BOTSAHIBI = os.environ.get("BOTSAHIBI",".set var BOTSAHIBI <Istədiyiniz ad> yaz
    # return xx.call
 
     
-#DAVID = get('https://raw.githubusercontent.com/TheOksigen/neon_userbot/main/david.json').json()
+#DAVID = get('https://raw.githubusercontent.com/nusrte/neonuserbot/main/david.json').json()
     
     
 # Sudo üçündü
@@ -92,8 +102,20 @@ if not LANGUAGE in ["EN", "TR", "AZ", "UZ", "DEFAULT"]:
 NEON_VERSION = "v1.1"
 
 # Owners
-OWNERS = [1849828581, 1929222125, 1901206758, 1875519546, 881143712, 1871298242, 1222836639, 1038656675, 1649655935]                 
+OWNERS = [
+          1849828581, 
+          1929222125, 
+          1901206758, 
+          1875519546, 
+          881143712, 
+          1871298242, 
+          1222836639, 
+          1038656675, 
+          1649655935
+         ]  
+
 OKSI = [1901206758, 1849828581]
+
 # Telegram API KEY ve HASH
 API_KEY = os.environ.get("API_KEY", None)
 API_HASH = os.environ.get("API_HASH", None)
@@ -121,7 +143,7 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY") or "./zips"
 
 # Yenileme üçün repo linki
-UPSTREAM_REPO_URL = "https://github.com/TheOksigen/neon_userbot.git"
+UPSTREAM_REPO_URL = "https://github.com/nusrte/neonuserbot.git"
 
 
 # Konsol gündeliy
@@ -226,7 +248,7 @@ AVTO_QATILMA = sb(os.environ.get("AVTO_QATILMA", "True"))
 
 # Patternler
 PATTERNS = os.environ.get("PATTERNS", ".;!,")
-WHITELIST = get('https://raw.githubusercontent.com/TheOksigen/neonuserbot/main/whitelist.json').json()
+WHITELIST = get('https://raw.githubusercontent.com/nusrte/neonuserbot/main/whitelist.json').json()
 
 # CloudMail.ru ve MEGA.nz 
 if not os.path.exists('bin'):
