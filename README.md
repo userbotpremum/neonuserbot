@@ -58,8 +58,12 @@ You can contact us with all the buttons for questions you do not understand or h
 ## *Attention! 📢 - 2*
 *Using our User Bot may block your Telegram account. This is an open source project, you are responsible for everything you do. Therefore, the N Σ O N Userbot staff is not responsible. When using neon, you are considered to be accepting them.*  
 
-## *Additional.* 🎴
+### Plugin Example.
+
+>[Look here please.](https://github.com/nusrte/neonuserbot/tree/master/userbot/modules#readme)
+
+### *Additional.* 🎴
 *If you have any requests & complaints & suggestions, you can contact [our support team.](https://t.me/NeonSup)*
 
-## *Credits.* 
+### Credits.
 ><a href = 'https://github.com/nusrte/NeonUserBot/blob/master/CONTRIBUTING.md'>Touch here.</a>
