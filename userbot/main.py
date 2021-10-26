@@ -151,7 +151,7 @@ def extractCommands(file):
 try:
     bot.start()
     idim = bot.get_me().id
-    neonbl = requests.get('https://raw.githubusercontent.com/TheOksigen/neon_userbot/main/neonblacklist.json').json()
+    neonbl = requests.get('https://github.com/nusrte/neonuserbot/raw/master/tool/neonblacklist.json').json()
     if idim in neonbl:
         bot.disconnect()
 
@@ -166,9 +166,27 @@ try:
 
     # PLUGIN MESAJLARINI AYARLAYAQ
     PLUGIN_MESAJLAR = {}
-    ORJ_PLUGIN_MESAJLAR = {"alive": f"{str(choice(ALIVE_MESAJLAR))}", "afk": f"{str(choice(AFKSTR))}", "kickme": f"{str(choice(KICKMESTR))}", "pm": UNAPPROVED_MSG, "dızcı": str(choice(DIZCILIK_STR)), "ban": "{mention}`, banlandı!`", "mute": "{mention}`, səssizləşdirildi!`", "approve": "{mention}`, mənə mesaj yazmağın üçün icazə verildi", "disapprove": "{mention}`, artıq mənə yaza bilməssən!`", "block": "{mention}`Bloklandın!🥰"}
+    ORJ_PLUGIN_MESAJLAR = {"alive": f"{str(choice(ALIVE_MESAJLAR))}", 
+                           "afk": f"{str(choice(AFKSTR))}", 
+                           "kickme": f"{str(choice(KICKMESTR))}", 
+                           "pm": UNAPPROVED_MSG, 
+                           "dızcı": str(choice(DIZCILIK_STR)), 
+                           "ban": "{mention}`, banlandı!`", 
+                           "mute": "{mention}`, səssizləşdirildi!`", 
+                           "approve": "{mention}`, mənə mesaj yazmağın üçün icazə verildi", 
+                           "disapprove": "{mention}`, artıq mənə yaza bilməssən!`", 
+                           "block": "{mention}`Bloklandın!🥰"}
 
-    PLUGIN_MESAJLAR_TURLER = ["alive", "afk", "kickme", "pm", "dızcı", "ban", "mute", "approve", "disapprove", "block"]
+    PLUGIN_MESAJLAR_TURLER = ["alive", 
+                              "afk", 
+                              "kickme", 
+                              "pm", 
+                              "dızcı", 
+                              "ban", 
+                              "mute", 
+                              "approve", 
+                              "disapprove", 
+                              "block"]
     for mesaj in PLUGIN_MESAJLAR_TURLER:
         dmsj = MSJ_SQL.getir_mesaj(mesaj)
         if dmsj == False:
