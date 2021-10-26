@@ -14,7 +14,7 @@
 
 
 *** 
-<h3>Here you will be informed about NeonUserBot.
+<h3 align = 'center'>Here you will be informed about NeonUserBot.
 You can contact us with all the buttons for questions you do not understand or have in mind.</h3>
 
 </div>
